@@ -18,6 +18,11 @@ This fork adapts the original NotebookLM prompt collection for advanced research
 
 See [MASTER_RESEARCH_PROTOCOL.md](MASTER_RESEARCH_PROTOCOL.md) for the shared analysis and verification standard.
 
+## ChatGPT Configuration Package
+
+- [Final Configuration Package — Saved Memory, Custom Instructions, Settings, Change Log, Installation](CONFIGURATION_PACKAGE_2026-11-22.md)
+- [Compact Custom Instructions](CUSTOM_INSTRUCTIONS_COMPACT.md)
+
 ## Reusable Agent Skill
 
 - [Agent Engineering Skill](skills/agent-engineering/SKILL.md) — prompt, agent, tool, trust-boundary, delegation and evaluation engineering, with supporting references.
