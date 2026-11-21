@@ -125,6 +125,15 @@ The current comparative review covers five selected artifacts from two repositor
 - [Presenter Slides](templates/studio/slide-deck/presenter-slides-speaking-support.md)
 - [Technical RFC Deck](templates/studio/slide-deck/technical-rfc-deck.md)
 
+
+## Agent Skills
+
+- [System Prompt Refiner](skills/system-prompt-refiner/SKILL.md) — diagnose, refine, redesign, and verify system prompts using conservative and deep-enhance modes.
+  - [Invariant policy](skills/system-prompt-refiner/INVARIANTS.md)
+  - [Test matrix](skills/system-prompt-refiner/TEST-MATRIX.md)
+  - [Refinement report template](skills/system-prompt-refiner/OUTPUT_TEMPLATE.md)
+  - [Tool integration notes](skills/system-prompt-refiner/references/TOOLING.md)
+
 ## Recommended workflow
 
 1. Frame the problem with **Essential Questions Generator**.
