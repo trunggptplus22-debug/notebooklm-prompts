@@ -7,3 +7,9 @@ This is a source-index entry in the Research & Solution Discovery Prompt Library
 See [SOURCE.md](SOURCE.md) for the indexed prompt list, source locations, priority recommendations, and handling constraints.
 
 **Important:** upstream prompt files are not copied here. Follow the upstream repository for current versions and check its license before redistributing content.
+
+
+## Related engineering research
+
+- [Refiner / Enhancer Tool Landscape](refiner-tool-landscape.md): comparison of Prompt Optimizer, Phoenix, GEPA, DSPy, PromptWizard, Promptfoo, Anthropic Skill Creator, Langfuse, and Agenta.
+- [Tool Selection and Proposed Workflow](TOOL-SELECTION.md): recommended stack and a conservative/deep-enhance design for a dedicated refiner Skill.
