@@ -1,33 +1,18 @@
----
-name: "Source Relevance Ranker"
-category: source-management
-subcategory: source-evaluation
-difficulty: beginner
-source: "Custom"
-use_case: "After uploading 20+ sources, quickly filter to the 5-10 most relevant"
----
+# Evidence and Source Prioritization
 
-# Source Relevance Ranker
+## Objective
+Prioritize sources for a specific research question, not by general prestige alone.
 
-**Source:** Custom  
-**Difficulty:** Beginner
+## Inputs
+- Research question: [INSERT]
+- Candidate sources: [INSERT OR SEARCH RESULTS]
+- Required evidence type: [INSERT]
+- Time sensitivity: [INSERT]
 
-## Prompt
+## Ranking Dimensions
+Evaluate direct relevance, methodological quality, primary-source status, reproducibility, transparency, recency where relevant, technical depth, independence, and limitations. Distinguish source authority from claim validity. A classical primary text may be authoritative for what a school teaches but not empirical proof of a modern scientific claim.
 
-```
-Analyze all sources and rank them by:
-1. Recency (publication date)
-2. Authority (source type: official docs > tutorials > blog posts > forums)
-3. Depth (surface overview vs deep technical detail)
-4. Relevance to [MY SPECIFIC USE CASE]
+## Output
+Rank sources with: relevance rationale; source type; claims it can support; limitations; recency; verification status; priority (read first / targeted extraction / background / exclude). Identify missing source categories and generate follow-up queries.
 
-For each source, provide:
-- Relevance score (1-10)
-- Key unique contribution
-- Overlap with other sources
-- Recommendation: KEEP / MAYBE / REMOVE
-```
-
-## Use Case (Data Engineering)
-
-After uploading 20+ sources, quickly filter to the 5-10 most relevant.
+Do not invent metadata, publication dates, peer-review status, or source contents.
