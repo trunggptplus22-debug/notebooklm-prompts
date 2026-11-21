@@ -18,6 +18,10 @@ This fork adapts the original NotebookLM prompt collection for advanced research
 
 See [MASTER_RESEARCH_PROTOCOL.md](MASTER_RESEARCH_PROTOCOL.md) for the shared analysis and verification standard.
 
+## Reusable Agent Skill
+
+- [Agent Engineering Skill](skills/agent-engineering/SKILL.md) — prompt, agent, tool, trust-boundary, delegation and evaluation engineering, with supporting references.
+
 ## System Prompt Leak Research
 
 This section treats public prompt-leak collections as secondary research corpora. Extract reusable mechanisms, preserve provenance, and test candidate patterns; do not copy leaked vendor prompts into global instructions.
