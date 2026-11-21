@@ -1,40 +1,7 @@
----
-name: "Technical RFC Deck"
-category: studio
-subcategory: slide-deck
-difficulty: intermediate
-type: "Detailed Deck"
-source: "Custom"
-use_case: "Préparer RFC pour nouvelle architecture de pipeline data"
----
-# Technical RFC Deck
+# Technical RFC and Architecture Decision Deck
 
-**Source:** Custom  
-**Type:** Detailed Deck
+Present a proposed technical change for [INSERT SYSTEM] as a reviewable RFC.
 
-## Prompt
+Slides: context and problem; goals / non-goals; current architecture; proposed design; alternatives considered; data and interface contracts; algorithm or state transitions; migration and compatibility; security / reliability / observability implications; failure modes; test plan; rollout / rollback; open questions; decision requested.
 
-```
-Create a Technical RFC (Request for Comments) deck for [PROPOSAL].
-
-Structure:
-1. Context & Motivation (why now?)
-2. Problem Statement (specific, measurable)
-3. Proposed Solution (with alternatives considered)
-4. Technical Design (architecture, data flow, APIs)
-5. Migration/Implementation Plan (phases, timeline)
-6. Success Metrics (how we'll know it works)
-7. Risks & Open Questions (for discussion)
-8. Decision Requested (what you need from reviewers)
-
-Style: Dense but scannable, technical audience assumed
-Include: Diagrams, code examples, links to detailed docs
-Exclude: Sales language, obvious context
-
-Length: Long
-Output language: English
-```
-
-## Use Case (Data Engineering)
-
-Préparer RFC pour nouvelle architecture de pipeline data.
+Every design choice must have a rationale and trade-off. Mark assumptions and unresolved decisions. Include diagrams for component and data flow. Do not describe proposed work as implemented. End with explicit review questions and acceptance criteria.
