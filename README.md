@@ -18,6 +18,18 @@ This fork adapts the original NotebookLM prompt collection for advanced research
 
 See [MASTER_RESEARCH_PROTOCOL.md](MASTER_RESEARCH_PROTOCOL.md) for the shared analysis and verification standard.
 
+## System Prompt Leak Research
+
+This section treats public prompt-leak collections as secondary research corpora. Extract reusable mechanisms, preserve provenance, and test candidate patterns; do not copy leaked vendor prompts into global instructions.
+
+- [Leak Prompt Research Protocol](research/LEAK_PROMPT_RESEARCH_PROTOCOL.md)
+- [Comparative Analysis of Selected Leaked Agent Prompts](research/LEAK_PROMPT_COMPARATIVE_ANALYSIS.md)
+- [Provider-Neutral Agent Engineering Patterns](research/PROVIDER_NEUTRAL_AGENT_PATTERNS.md)
+- [Leak Prompt Pattern Evaluation Suite](research/LEAK_PROMPT_EVALUATION_SUITE.md)
+- [Adoption Decisions](research/LEAK_PROMPT_ADOPTION_DECISIONS.md)
+
+The current comparative review covers five selected artifacts from two repositories. The evaluation suite contains designed cases; it is not a claim that a target model has passed them.
+
 ## Prompt index
 
 ### Learning, research framing, and project design
