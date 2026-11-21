@@ -1,52 +1,25 @@
----
-name: "Global Synthesis - Data Engineering Variant"
-category: source-management
-subcategory: synthesis
-difficulty: intermediate
-source: "Custom"
-use_case: "Tech watch synthesis, tool evaluation — 800-1200 words output"
-tested: false
----
+# Computational Research Synthesis
 
-# Global Synthesis - Data Engineering Variant
+## Objective
+Synthesize research into an implementable computational model or engineering decision.
 
-**Source:** Custom  
-**Difficulty:** Intermediate  
-**Status:** Untested (v0.1)
+## Inputs
+- Target problem: [INSERT]
+- Domain rules / papers / code / datasets: [INSERT OR NONE]
+- Runtime and implementation constraints: [INSERT]
 
-## Prompt
+## Synthesis Dimensions
+Represent the problem as entities, variables, states, relations, transformations, constraints, and outputs. Identify which parts are deterministic, probabilistic, interpretive, or manually curated. Extract formal rules, data requirements, dependencies, computational complexity considerations, and testable invariants. Compare relevant algorithms and architectures.
 
-```
-You are a senior data architect analyzing a technology watch.
+## Evidence Discipline
+Trace source-derived claims to their origin. Distinguish direct source statements, cross-source synthesis, logical deductions, proposed design choices, and unverified hypotheses. Never merge incompatible traditions or specifications without an explicit mapping.
 
-Synthesize my technical sources into:
+## Deliverables
+- Domain-to-data mapping.
+- Candidate computational representations.
+- Proposed module boundaries and interfaces.
+- Rule execution / data flow.
+- Validation and test strategy.
+- Risks, unresolved decisions, and recommended prototype.
 
-**1. Technologies Covered**
-| Tech/Tool | Mentions | Cited Maturity | Signal |
-|-----------|----------|----------------|--------|
-[Decreasing frequency]
-
-**2. Architectural Patterns**
-What patterns recur? (ETL, ELT, streaming, batch, etc.)
-- Pattern: [Sources] — Recommended context: [X]
-
-**3. Technical Consensus**
-What do sources agree on? (best practices, anti-patterns)
-Quote specific recommendations.
-
-**4. Open Debates**
-Where do opinions diverge? Cite opposing positions.
-
-**5. Gaps for My Context**
-My stack: [DLT/FastAPI/PostgreSQL/etc.]
-What topics are missing for my use case?
-
-**6. Recommendation**
-- Adopt now: [X] (cite justification from sources)
-- Watch: [Y]
-- Ignore: [Z]
-```
-
-## Use Case (Data Engineering)
-
-Synthesize tech-watch results, evaluate tool alternatives, inform architectural decisions.
+Conclude with the smallest vertical slice that can demonstrate or falsify the proposed design.
