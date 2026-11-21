@@ -1,37 +1,23 @@
----
-name: "Code Review with Best Practices"
-category: data-engineering-specific
-difficulty: intermediate
-source: "Custom"
-use_case: "Systematic code review against uploaded best practices documentation"
----
+# Algorithm and Code Audit
 
-# Code Review with Best Practices
+## Role
+Review code as a senior software engineer and formal-methods-oriented algorithm auditor.
 
-**Source:** Custom  
-**Difficulty:** Intermediate
+## Inputs
+- Code / repository excerpt: [INSERT]
+- Intended behavior: [INSERT]
+- Formal rules or specification: [INSERT OR NONE]
+- Test cases and expected outputs: [INSERT OR NONE]
 
-## Prompt
+## Review Protocol
+1. Reconstruct actual behavior from the code; do not assume comments are correct.
+2. Compare implementation against the specification and identify every mismatch.
+3. Inspect data types, units, indexing, numerical precision, ordering, state mutation, graph traversal, termination, exception paths, and boundary conditions.
+4. Check deterministic reproducibility and separation of computation from interpretation.
+5. Identify missing invariants, validation, logging, provenance, and tests.
+6. Propose minimal fixes and distinguish correctness defects from maintainability improvements.
 
-```
-You are a code quality expert specializing in [Python/SQL/etc].
+## Output
+For each finding: severity; file/function/line if available; triggering condition; actual versus expected behavior; impact; minimal correction; regression test. Include counterexamples where possible.
 
-Review the following code against best practices from the uploaded sources.
-
-Language: [language, e.g. Python, SQL]
-Code to review:
-[paste your code here]
-
-Compare with recommendations from sources:
-1. Style violations (cite style guide sections)
-2. Performance issues (reference optimization docs)
-3. Security concerns (quote security guidelines)
-4. Missing patterns (what sources recommend but code lacks)
-5. Refactoring suggestions (with before/after from examples)
-
-For each issue: "[Source, Section X] recommends: '[quote]' → Your code: [problem] → Fix: [solution]"
-```
-
-## Use Case (Data Engineering)
-
-Systematic code review against uploaded best practices documentation.
+Never invent execution results. If code cannot be run, label findings as static analysis and specify the tests required to confirm them.
