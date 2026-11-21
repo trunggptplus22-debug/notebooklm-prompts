@@ -32,6 +32,7 @@ This section treats public prompt-leak collections as secondary research corpora
 - [Leak Prompt Pattern Evaluation Suite](research/LEAK_PROMPT_EVALUATION_SUITE.md)
 - [Adoption Decisions](research/LEAK_PROMPT_ADOPTION_DECISIONS.md)
 - [Evaluation Run 001 — Static Contract Review](research/EVALUATION_RUN_001_STATIC_REVIEW.md)
+- [Deployment Record — Agent Engineering Patterns](research/DEPLOYMENT_RECORD_AGENT_ENGINEERING.md)
 
 The current comparative review covers five selected artifacts from two repositories. The evaluation suite contains designed cases; it is not a claim that a target model has passed them.
 
