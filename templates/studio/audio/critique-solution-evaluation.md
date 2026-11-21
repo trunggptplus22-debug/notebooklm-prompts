@@ -1,37 +1,5 @@
----
-name: "Critique - Solution Evaluation"
-category: studio
-subcategory: audio
-difficulty: intermediate
-format: "Critique"
-length: "Default"
-source: "Custom"
-use_case: "Évaluation critique d'un outil avant décision d'adoption"
----
+# Audio Brief: Critical Solution Review
 
-# Critique - Solution Evaluation
+Produce an audio critique of the proposed solution [INSERT].
 
-**Source:** Custom  
-**Format:** Critique  
-**Length:** Default
-
-## Prompt
-
-```
-Generate a CRITIQUE audio overview.
-
-The hosts should:
-1. Identify weaknesses and limitations in the proposed approach
-2. Challenge assumptions with evidence from sources
-3. Suggest counter-arguments and alternatives
-4. Rate confidence level for each claim
-
-Be constructively critical, not dismissive.
-
-Focus on: [SOLUTION/TOOL being evaluated]
-Context: We're considering this for [USE CASE]
-```
-
-## Use Case (Data Engineering)
-
-Évaluation critique d'un outil avant décision d'adoption.
+Structure the review around: problem-solution fit; assumptions; mechanism correctness; evidence quality; alternatives; implementation cost; edge cases; failure modes; and testability. Explain the strongest argument for adoption before presenting the strongest objections. Identify what is proven, inferred, or unknown. Do not create artificial balance. End with a verdict—adopt, prototype, revise, or reject—and the minimum experiment required to justify that decision. Keep the tone technical and unsensational.
