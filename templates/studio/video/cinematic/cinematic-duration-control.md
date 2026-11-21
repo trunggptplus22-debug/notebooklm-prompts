@@ -1,0 +1,3 @@
+# Video Duration Constraint
+
+Create a video about [INSERT TOPIC] with a target duration under [N] minutes. Prioritize the core problem, governing mechanism, one representative example, key limitation, and practical conclusion. Remove repetition and decorative transitions before removing technical steps required for correctness. Do not compress by omitting caveats that materially change the conclusion. Preserve evidence status. If the requested duration cannot support the necessary explanation, state the limitation and recommend a longer target.
