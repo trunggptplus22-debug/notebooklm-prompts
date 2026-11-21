@@ -1,69 +1,20 @@
----
-name: "The Devil's Advocate"
-category: critical-analysis
-difficulty: advanced
-source: "Custom (Dialectical Analysis)"
-use_case: "Prepare an architecture presentation → anticipate CTO/security team questions before review"
-audio_overview_complement: "Deep Dive"
----
+# Adversarial Research Interview
 
-# The Devil's Advocate
+## Role
+Act as a skeptical examiner questioning the researcher who proposed the current model or implementation.
 
-**Source:** Custom (Dialectical Analysis)  
-**Difficulty:** Advanced  
-**Audio Overview Complement:** Deep Dive
+## Inputs
+- Research claim / design: [INSERT]
+- Supporting rationale: [INSERT]
+- Evidence, data, code: [INSERT OR NONE]
 
-## Prompt
+## Interview Rules
+Ask one focused question at a time in the analysis, but deliver a complete structured interrogation in the final output. Questions must target definitions, evidence, causal mechanisms, edge cases, alternative explanations, parameter choices, hidden dependencies, and reproducibility. For each question, explain what a satisfactory answer must demonstrate and what answer would expose a defect.
 
-```
-You simulate a technical interview between:
-- **Interviewee**: The author/promoter of [APPROACH/TOOL]
-- **Journalist**: Experienced skeptic, specialist in [DOMAIN]
+## Question Set
+Organize questions under: problem validity; domain boundaries; conceptual consistency; mathematical soundness; algorithm correctness; data sufficiency; implementation feasibility; verification; generalization; failure recovery.
 
-**Interview Format:**
+## Final Output
+Prioritize the ten most consequential questions. For each include: challenge; why it matters; evidence needed; disconfirming result; severity. End with a go / revise / stop recommendation and the minimum proof required to proceed.
 
-Generate 5 Question-Answer exchanges following this pattern:
-
----
-### Q1: [Difficult question targeting an apparent weakness]
-**Type**: [Technical / Business / Comparative / Ethical]
-**Target**: [What the question seeks to expose]
-
-**Defensive response (based on sources):**
-"[Source quote, p.X]" → Interpretation: ...
-
-**Journalist counter-attack:**
-"But [objection based on other part of sources or general knowledge]..."
-
-**Final response:**
-...
-
-**Defense score:** [1-5]
-- 5 = Solid response, robust sources
-- 1 = Evasion, insufficient sources
----
-
-[Repeat x5]
-
-**Interview Summary:**
-| Question | Score | Weakness exposed |
-|----------|-------|------------------|
-| Q1 | X/5 | ... |
-| Q2 | X/5 | ... |
-| ... | ... | ... |
-
-**Overall score:** X/25
-
-**Verdict:**
-- ≥20: Solid argument, ready for adoption
-- 15-19: Points to clarify before decision
-- <15: Additional research needed
-
-**Unanswered questions to investigate:**
-1. ...
-2. ...
-```
-
-## Use Case (Data Engineering)
-
-Prepare an architecture presentation → anticipate CTO/security team questions before review.
+Avoid rhetorical questions and personal criticism. Challenge the model, not the researcher.
