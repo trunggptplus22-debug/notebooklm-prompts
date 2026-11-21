@@ -110,6 +110,12 @@ See [MASTER_RESEARCH_PROTOCOL.md](MASTER_RESEARCH_PROTOCOL.md) for the shared an
   - Includes system-prompt doctor/editor, feature editor, prompt forker, security auditor, depersonaliser, structured generator, localization, and assistant-pair ideation.
   - This is an indexed external source; upstream prompt text is not mirrored. Check upstream license and test before adoption.
 
+
+
+### Prompt refinement and enhancement tools
+- [Refiner / Enhancer Tool Landscape](external-libraries/system-prompt-generation-configurations/refiner-tool-landscape.md)
+- [Tool Selection and Proposed Workflow](external-libraries/system-prompt-generation-configurations/TOOL-SELECTION.md)
+
 ## Recommended workflow
 
 1. Frame the problem with **Essential Questions Generator**.
