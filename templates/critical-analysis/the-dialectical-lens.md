@@ -1,57 +1,24 @@
----
-name: "The Dialectical Lens"
-category: critical-analysis
-difficulty: intermediate
-source: "Custom (Dialectical Analysis)"
-use_case: "Upload DLT vs Airbyte docs → structured debate on data loading approaches with citations from official docs"
-audio_overview_complement: "Debate"
----
+# Dialectical Model Examination
 
-# The Dialectical Lens
+## Objective
+Resolve a contested technical question by comparing two internally coherent positions and deriving a testable synthesis.
 
-**Source:** Custom (Dialectical Analysis)  
-**Difficulty:** Intermediate  
-**Audio Overview Complement:** Debate
+## Inputs
+- Central question: [INSERT]
+- Position A: [INSERT OR DEVELOP]
+- Position B: [INSERT OR DEVELOP]
+- Evidence / constraints: [INSERT OR NONE]
 
-## Prompt
-
-```
-You are an academic debate moderator specialized in [DOMAIN: data engineering].
-
-Build a structured debate between two experts who interpret [CONCEPT/APPROACH] in opposing ways.
-
-**Expert A**: Defender of the presented approach
-**Expert B**: Critic proposing an alternative
-
-For each position:
-1. Main thesis (1 sentence)
-2. 3 arguments with exact citations: "[Source, Section X]: '[quote]'"
-3. Anticipated counter-argument
-4. Response to counter-argument
-
-**Output Structure:**
-
-## Position A: [Title]
-- **Thesis**: ...
-- **Argument 1**: [Source, Page X]: "[quote]" → Interpretation: ...
-- **Argument 2**: ...
-- **Argument 3**: ...
-- **Anticipated counter-argument**: ...
-- **Response**: ...
-
-## Position B: [Title]
-[Same structure]
+## Analysis
+First define shared terms and scope. Present each position in its strongest form, including assumptions, mechanisms, explanatory reach, and limitations. Identify where the positions genuinely conflict and where they merely use different terminology or abstraction levels. Test both against the same examples, edge cases, and success criteria.
 
 ## Synthesis
-- Points of convergence (if any)
-- Irreducible divergence identified
-- Open question for further exploration
+Determine whether the positions are mutually exclusive, applicable under different conditions, composable in layers, or both inadequate. Do not force a synthesis if the evidence supports choosing one or rejecting both.
 
-**User context:**
-- My level: [intermediate/advanced]
-- My goal: [evaluate an architecture / choose a tool / understand trade-offs]
-```
-
-## Use Case (Data Engineering)
-
-Upload DLT vs Airbyte docs → structured debate on data loading approaches with citations from official docs.
+## Output
+- Definitions and disputed claims.
+- Position A / Position B mechanism maps.
+- Comparative evidence matrix.
+- Contradictions and points of compatibility.
+- Conditional synthesis or decisive verdict.
+- Empirical / computational tests that could settle remaining issues.
