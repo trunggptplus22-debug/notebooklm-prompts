@@ -102,6 +102,14 @@ See [MASTER_RESEARCH_PROTOCOL.md](MASTER_RESEARCH_PROTOCOL.md) for the shared an
 - [Presenter Slides](templates/studio/slide-deck/presenter-slides-speaking-support.md)
 - [Technical RFC Deck](templates/studio/slide-deck/technical-rfc-deck.md)
 
+
+
+### Meta-prompt engineering — external libraries
+- [System Prompt Generation Configurations — source index](external-libraries/system-prompt-generation-configurations/README.md)
+  - Upstream collection: [danielrosehill/System-Prompt-Generation-Configurations](https://github.com/danielrosehill/System-Prompt-Generation-Configurations)
+  - Includes system-prompt doctor/editor, feature editor, prompt forker, security auditor, depersonaliser, structured generator, localization, and assistant-pair ideation.
+  - This is an indexed external source; upstream prompt text is not mirrored. Check upstream license and test before adoption.
+
 ## Recommended workflow
 
 1. Frame the problem with **Essential Questions Generator**.
