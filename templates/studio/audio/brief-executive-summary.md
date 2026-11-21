@@ -1,37 +1,5 @@
----
-name: "Brief - Executive Summary"
-category: studio
-subcategory: audio
-difficulty: intermediate
-format: "Brief"
-length: "Shorter"
-source: "Wonder Tools"
-use_case: "Résumé rapide pour partager findings avec équipe management"
----
+# Audio Brief: Research Decision Summary
 
-# Brief - Executive Summary
+Create a concise spoken briefing for a technically informed decision-maker.
 
-**Source:** Wonder Tools  
-**Format:** Brief  
-**Length:** Shorter
-
-## Prompt
-
-```
-Format: Brief
-Length: Shorter
-
-Create a 5-minute executive summary for [AUDIENCE: tech leads].
-
-Focus on:
-- Key decisions to make
-- Top 3 recommendations from sources
-- Risks identified
-- Next steps
-
-Skip: Technical implementation details, history, context already known.
-```
-
-## Use Case (Data Engineering)
-
-Résumé rapide pour partager findings avec équipe management.
+Cover: the exact problem; why it matters; current best-supported finding; governing mechanism; leading solution and alternatives; major uncertainty; implementation consequence; and next decisive action. Prioritize decision-relevant information over background. Distinguish verified results from hypotheses. Use precise technical terms, briefly define only essential ones, and avoid motivational language or generic introductions. End with a clear decision and its evidence basis. Target duration: approximately five minutes.

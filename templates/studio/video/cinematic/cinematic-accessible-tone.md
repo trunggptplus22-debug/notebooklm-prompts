@@ -1,0 +1,3 @@
+# Accessible Technical Narrative Steering
+
+Create a technically faithful, accessible video about [INSERT TOPIC]. Establish the formal concept first, then use one sustained explanatory metaphor only if it accurately maps to the underlying mechanism. Maintain consistent terminology and avoid adding unsupported causal links, statistics, or examples. State where the metaphor stops working. Preserve limitations, uncertainty, and distinctions between established rules and hypotheses. Accessibility must come from clear sequencing and explanation, not from deleting essential technical distinctions.

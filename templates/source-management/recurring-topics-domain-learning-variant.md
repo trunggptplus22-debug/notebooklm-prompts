@@ -1,40 +1,25 @@
----
-name: "Recurring Topics - Domain Learning Variant"
-category: source-management
-subcategory: recurring-topics-extractor
-difficulty: beginner
-source: "Custom"
-use_case: "Structure learning of a new domain from uploaded docs"
----
+# Domain Structure and Prerequisite Mapper
 
-# Recurring Topics - Domain Learning Variant
+## Objective
+Map an unfamiliar technical or theoretical domain into a navigable structure that supports independent research and implementation.
 
-**Source:** Custom  
-**Difficulty:** Beginner
+## Inputs
+- Domain: [INSERT]
+- Intended application: [INSERT]
+- Current familiarity: [INSERT OR UNKNOWN]
+- Available sources: [INSERT OR NONE]
 
-## Prompt
+## Method
+Identify the domain's core objects, terminology, axioms or foundational assumptions, major subfields, competing schools, standard methods, mathematical tools, and unresolved problems. Build dependency relations showing which concepts must be understood before others. Distinguish foundational knowledge from application-specific techniques and contested claims.
 
-```
-You are a curriculum designer.
+## Output
+1. Domain map with major branches.
+2. Glossary with precise definitions.
+3. Concept dependency graph.
+4. Core methods and what each is used to solve.
+5. Major disagreements and methodological limits.
+6. Practical exercises tied to real research tasks.
+7. Recommended sequence for reaching the target capability.
+8. Questions that reveal whether the domain is understood rather than memorized.
 
-Extract fundamental concepts from these learning sources:
-
-**Fundamental Concepts (suggested learning order):**
-1. [Concept] - Prerequisite for: [other concepts]
-2. ...
-
-**Practical Skills Mentioned:**
-| Skill | Sources | Suggested exercises |
-|-------|---------|---------------------|
-
-**Documented Common Errors:**
-- Error 1: [Source, p.X]
-
-**Suggested Learning Path:**
-Week 1: [Concepts]
-Week 2: ...
-```
-
-## Use Case (Data Engineering)
-
-Structure learning of a new domain from uploaded docs.
+If sources are supplied, cite them. Otherwise label the map as a preliminary framework requiring source verification.

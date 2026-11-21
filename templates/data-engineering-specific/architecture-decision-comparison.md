@@ -1,38 +1,28 @@
----
-name: "Architecture Decision Comparison"
-category: data-engineering-specific
-difficulty: advanced
-source: "Custom"
-use_case: "Make informed architectural decisions with source-backed comparisons"
----
+# Hybrid System Architecture Decision Analysis
 
-# Architecture Decision Comparison
+## Objective
+Evaluate architectures for a research or computational engine, including LLM–deterministic hybrid designs.
 
-**Source:** Custom  
-**Difficulty:** Advanced
+## Inputs
+- System objective: [INSERT]
+- Functional requirements: [INSERT]
+- Data and rule characteristics: [INSERT]
+- Runtime / deployment constraints: [INSERT]
+- Candidate architectures: [INSERT OR GENERATE]
 
-## Prompt
+## Analysis Dimensions
+Assess module boundaries, data contracts, state ownership, deterministic versus probabilistic responsibilities, rule execution, provenance, validation, error handling, observability, reproducibility, versioning, extensibility, latency, cost, and testability.
 
-```
-You are an architecture decision consultant.
+For symbolic domains, preserve doctrine-specific rules as explicit versioned rule sets. Keep astronomical or numeric calculations deterministic where exact computation is required. Use LLMs for interpretation, research synthesis, explanation, and controlled orchestration—not as an unverified calculator.
 
-Decision: [e.g., PostgreSQL vs MongoDB for analytics]
-Uploaded sources: [list your docs]
+## Deliverables
+- Context and component diagrams in Mermaid where useful.
+- Responsibility matrix for each module.
+- Data-flow and control-flow description.
+- Interface and schema proposals.
+- Trade-off matrix with evidence and assumptions.
+- Failure modes and mitigations.
+- Architecture decision record with rejected alternatives.
+- Proof-of-concept plan and acceptance tests.
 
-Create comparison table:
-
-| Criterion | Option A | Option B | Source Citation |
-|-----------|----------|----------|-----------------|
-| Performance | | | |
-| Scalability | | | |
-| Cost | | | |
-| Complexity | | | |
-
-Then recommend best choice for my context: [describe your specific use case]
-
-Quote exact benchmarks and case studies from sources.
-```
-
-## Use Case (Data Engineering)
-
-Make informed architectural decisions with source-backed comparisons.
+Do not claim an architecture is scalable or reliable without specifying how that claim will be tested.

@@ -1,40 +1,18 @@
----
-name: "Recurring Topics - Tech Watch Variant"
-category: source-management
-subcategory: recurring-topics-extractor
-difficulty: intermediate
-source: "Custom"
-use_case: "Synthesize tech-watch skill results before adoption decision"
----
+# Focused Research Signal Watch
 
-# Recurring Topics - Tech Watch Variant
+## Objective
+Track only external developments that could alter a defined research project, method choice, or implementation decision.
 
-**Source:** Custom  
-**Difficulty:** Intermediate
+## Inputs
+- Project / method: [INSERT]
+- Specific dependency or uncertainty: [INSERT]
+- Relevant fields / technologies: [INSERT]
+- Review horizon: [INSERT]
 
-## Prompt
+## Watch Criteria
+Monitor primary papers, code releases, standards, datasets, benchmarks, and documented replications relevant to the stated dependency. Exclude general news unless it changes feasibility, compatibility, cost, or validity. Record publication/release date, source quality, maturity, reproducibility, and actual technical implications.
 
-```
-You are a technology watch analyst.
+## Output
+For each relevant signal: change; evidence; mechanism; project impact; adoption condition; risk; next verification. Classify as act now, prototype, monitor, or irrelevant.
 
-Extract recurring themes from this tech watch:
-
-**Technologies Mentioned:**
-| Tech | Frequency | Maturity (Sources) | Signal |
-|------|-----------|--------------------|---------| 
-| [Name] | X sources | [alpha/beta/prod] cited by [Source] | [Growing adoption / Stable / Declining] |
-
-**Emerging Patterns:**
-- Pattern 1: [Description] - Sources: [A, B]
-
-**Detected Contradictions:**
-- [Source A] states [X] vs [Source B] states [Y]
-
-**Watch Recommendation:**
-- To monitor: [Technologies with strong signal]
-- To ignore: [Buzz without substance]
-```
-
-## Use Case (Data Engineering)
-
-Synthesize tech-watch skill results before adoption decision.
+Do not fabricate live updates. If external search is unavailable, provide precise queries and a monitoring specification rather than claiming current findings.

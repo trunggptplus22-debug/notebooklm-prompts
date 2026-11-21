@@ -1,28 +1,21 @@
----
-name: "Recurring Topics Extractor v2 - Compact"
-category: source-management
-subcategory: recurring-topics-extractor
-difficulty: beginner
-source: "Custom"
-use_case: "Quick scan of new sources before in-depth analysis"
----
+# Rapid Research Pattern Scan
 
-# Recurring Topics Extractor v2 - Compact
+## Objective
+Quickly identify repeated concepts, mechanisms, disagreements, and actionable leads across supplied material.
 
-**Source:** Custom  
-**Difficulty:** Beginner
+## Inputs
+- Research question: [INSERT]
+- Material: [INSERT OR NONE]
+- Intended decision: [INSERT]
 
-## Prompt
+## Scan
+Extract only recurring ideas that materially affect the question. For each, record the core claim, where it appears, whether the sources are independent, what mechanism is described, and whether the claim is supported or merely repeated. Flag contradictions and unusual exceptions.
 
-```
-Identify the 5-10 most recurring themes in these sources.
+## Output
+- Five highest-value recurring themes.
+- Two or more meaningful conflicts, if present.
+- Unique findings that appear only once but may be important.
+- What the material does not establish.
+- Three follow-up questions and targeted searches.
 
-For each theme, one line only:
-[Theme] | [Definition 10 words max] | [Sources: A, B, C] | [CONSENSUS/DEBATED/ASSUMED]
-
-Sort by decreasing frequency.
-```
-
-## Use Case (Data Engineering)
-
-Quick scan of new sources before in-depth analysis.
+If no material is supplied, convert the topic into a first-principles issue map and research query set. Never imply that a source scan occurred when it did not.

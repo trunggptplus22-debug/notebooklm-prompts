@@ -1,29 +1,17 @@
----
-name: "Source Conflict Detector"
-category: source-management
-subcategory: source-evaluation
-difficulty: intermediate
-source: "Custom"
-use_case: "Clean up source collection before deep analysis"
----
+# Source and Rule Conflict Detector
 
-# Source Conflict Detector
+## Objective
+Find contradictions among sources, specifications, code, or doctrinal rule sets without erasing meaningful differences.
 
-**Source:** Custom  
-**Difficulty:** Intermediate
+## Inputs
+- Sources / documents / code: [INSERT]
+- Question or target rule: [INSERT]
+- Relevant tradition, version, or scope: [INSERT]
 
-## Prompt
+## Procedure
+Extract each relevant claim with exact provenance. Normalize terms cautiously. Classify apparent conflicts as: direct contradiction; different definitions; different scope; different historical version; different assumptions; different abstraction level; implementation mismatch; or unresolved ambiguity. Check whether claims are actually mutually exclusive.
 
-```
-From my uploaded sources, identify:
-1. Which sources provide conflicting information? (cite specific conflicts)
-2. Which sources are outdated (pre-[DATE])?
-3. Which sources cover the same ground? (suggest which to keep)
-4. What gaps exist across all sources? (what topics are NOT covered)
+## Output
+For each conflict: Claim A and provenance; Claim B and provenance; conflict type; scope; possible reconciliation; evidence needed; impact on the model. Identify which conflicts block implementation and which can be represented as configurable variants.
 
-Output as actionable checklist.
-```
-
-## Use Case (Data Engineering)
-
-Clean up source collection before deep analysis.
+Never select a preferred source solely by confidence of tone or frequency. Preserve unresolved conflicts explicitly.

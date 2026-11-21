@@ -1,36 +1,7 @@
----
-name: "Explainer Video - Comprehensive"
-category: studio
-subcategory: video
-difficulty: intermediate
-length: "6-10 minutes"
-source: "Wonder Tools"
-use_case: "Vidéo explicative complète pour évaluation d'un outil avant POC"
----
+# Comprehensive Technical Explainer Video
 
-# Explainer Video - Comprehensive
+Create a 6–10 minute technical explainer of [INSERT SYSTEM / THEORY / ALGORITHM].
 
-**Source:** Wonder Tools  
-**Length:** 6-10 minutes
+Narrative sequence: define the real problem and scope; establish key entities and terminology; explain the governing mechanism step by step; show the formal or computational representation; walk through a worked example; compare alternatives; expose edge cases and failure modes; explain implementation and validation; summarize unresolved questions.
 
-## Prompt
-
-```
-Create an EXPLAINER video for [TARGET AUDIENCE: data engineers evaluating [TOOL]].
-
-Structure:
-1. Problem statement (30s)
-2. Solution overview (1min)
-3. How it works - technical deep dive (3-4min)
-4. Comparison with alternatives (2min)
-5. When to use / when not to use (1min)
-6. Getting started steps (1min)
-
-Style: Technical but accessible, code examples where relevant.
-Visuals: Architecture diagrams, code snippets, comparison tables.
-Exclude: Marketing language, generic AI hype.
-```
-
-## Use Case (Data Engineering)
-
-Vidéo explicative complète pour évaluation d'un outil avant POC.
+Visual requirements: use accurate diagrams, state transitions, dependency graphs, data-flow maps, tables, and equations where they clarify the mechanism. Every diagram must correspond to the described model. Distinguish established rules from hypotheses and proposed designs. Do not invent performance figures, citations, or causal claims. Prioritize technical intelligibility over cinematic effects.

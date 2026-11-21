@@ -1,36 +1,5 @@
----
-name: "Debate - Opposing Views"
-category: studio
-subcategory: audio
-difficulty: intermediate
-format: "Debate"
-length: "Default"
-source: "Custom"
-use_case: "Explorer trade-offs d'une décision architecturale avec sources contradictoires"
----
+# Audio Debate: Competing Technical Models
 
-# Debate - Opposing Views
+Create a structured debate between two specialists examining [INSERT QUESTION].
 
-**Source:** Custom  
-**Format:** Debate  
-**Length:** Default
-
-## Prompt
-
-```
-Generate a DEBATE audio overview.
-
-The hosts should:
-1. Take opposing positions on [TOPIC/DECISION]
-2. Each cite specific sources to support their position
-3. Engage with each other's arguments constructively
-4. Acknowledge valid points from the other side
-5. Conclude with a nuanced synthesis, not a clear winner
-
-Topic: [e.g., Batch vs Stream processing for our use case]
-Sources representing each view: [SOURCE A for position 1, SOURCE B for position 2]
-```
-
-## Use Case (Data Engineering)
-
-Explorer trade-offs d'une décision architecturale avec sources contradictoires.
+Speaker A presents the strongest case for Model A; Speaker B presents the strongest case for Model B. They must use the same definitions, examples, and success criteria. Debate mechanisms, assumptions, explanatory coverage, edge cases, computational implications, and evidence—not personal preferences. Identify whether the models are mutually exclusive, conditionally valid, composable, or both incomplete. End with a synthesis only if justified; otherwise state what experiment or evidence would decide the issue. Do not invent citations or imply consensus.

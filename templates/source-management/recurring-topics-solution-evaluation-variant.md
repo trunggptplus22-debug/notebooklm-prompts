@@ -1,44 +1,24 @@
----
-name: "Recurring Topics - Solution Evaluation Variant"
-category: source-management
-subcategory: recurring-topics-extractor
-difficulty: intermediate
-source: "Custom"
-use_case: "Evaluate a framework before POC (e.g., Prefect docs vs user critiques)"
----
+# Solution Evaluation and Prototype Gate
 
-# Recurring Topics - Solution Evaluation Variant
+## Objective
+Determine whether a candidate method, model, library, or architecture deserves implementation effort.
 
-**Source:** Custom  
-**Difficulty:** Intermediate
+## Inputs
+- Problem and success criteria: [INSERT]
+- Candidate solution: [INSERT]
+- Alternatives: [INSERT OR GENERATE]
+- Data, constraints, resources: [INSERT]
 
-## Prompt
+## Evaluation
+Assess mechanism fit, assumptions, correctness, evidence, compatibility, complexity, edge cases, reproducibility, maintainability, extensibility, and failure recovery. Compare against a baseline and at least one alternative. Separate theoretical plausibility from demonstrated performance. Do not use arbitrary weighted scores; define scales and weights before scoring.
 
-```
-You are a technical solutions evaluator.
+## Output
+1. Problem-solution fit.
+2. Explicit assumptions and dependencies.
+3. Strengths and limitations.
+4. Comparison with alternatives.
+5. Failure modes and disconfirming tests.
+6. Prototype scope and acceptance criteria.
+7. Decision: adopt / prototype / investigate / reject.
 
-Analyze sources on [SOLUTION] and extract:
-
-**Arguments For (frequency):**
-| Argument | Sources | Strength (citations) |
-|----------|---------|----------------------|
-
-**Arguments Against (frequency):**
-| Argument | Sources | Strength (citations) |
-|----------|---------|----------------------|
-
-**Mentioned Use Cases:**
-- Recommended for: [cited contexts]
-- Not recommended for: [cited contexts]
-
-**Confidence Score:**
-- Pro sources: X%
-- Contra sources: Y%
-- Neutral sources: Z%
-
-**Verdict:** [Adopt / Avoid / Depends on context]
-```
-
-## Use Case (Data Engineering)
-
-Evaluate a framework before POC (e.g., Prefect docs vs user critiques).
+Recommend the smallest proof-of-concept that can reveal whether the central mechanism works.

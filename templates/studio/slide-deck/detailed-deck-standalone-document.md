@@ -1,39 +1,7 @@
----
-name: "Detailed Deck - Standalone Document"
-category: studio
-subcategory: slide-deck
-difficulty: intermediate
-type: "Detailed Deck"
-source: "vibeproductmarketing"
-use_case: "Présentation technique pour architecture review ou RFC"
----
-# Detailed Deck - Standalone Document
+# Standalone Technical Research Deck
 
-**Source:** vibeproductmarketing  
-**Type:** Detailed Deck
+Create a complete presentation documenting [INSERT RESEARCH QUESTION / SYSTEM].
 
-## Prompt
+Required sequence: title and decision context; problem definition; scope and non-goals; domain terminology; evidence and assumptions; structural model; mechanism; formalization; competing approaches; worked example; architecture or implementation plan; risks and failure modes; validation strategy; conclusions; unresolved questions; next actions.
 
-```
-Create a Detailed Deck for [AUDIENCE: technical review board].
-
-Structure:
-1. Problem statement (1 slide)
-2. Current state analysis (2-3 slides)
-3. Proposed solution with architecture (3-4 slides)
-4. Implementation roadmap (2 slides)
-5. Key metrics and success criteria (1 slide)
-6. Risks and mitigations (1 slide)
-7. Q&A / Discussion points (1 slide)
-
-Style: Professional, data-driven, minimal text per slide
-Include: Code snippets where relevant, architecture diagrams descriptions
-Exclude: Generic stock imagery, motivational quotes
-
-Length: Default
-Output language: [French/English]
-```
-
-## Use Case (Data Engineering)
-
-Présentation technique pour architecture review ou RFC.
+Each slide must have one analytical purpose and a meaningful title. Use diagrams, tables, equations, or pseudocode when they improve precision. Add speaker notes for complex reasoning and source attribution where available. Distinguish implemented results from proposals and hypotheses. Avoid filler slides and repeated conclusions.

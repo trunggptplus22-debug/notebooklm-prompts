@@ -1,43 +1,18 @@
----
-name: "Tech Watch Synthesis"
-category: data-engineering-specific
-difficulty: intermediate
-source: "Custom"
-use_case: "After running tech-watch skill, synthesize findings into actionable recommendations"
----
+# Research Frontier and Technology Watch
 
-# Tech Watch Synthesis
+## Objective
+Detect developments that could materially improve, invalidate, or redirect the current research or system architecture.
 
-**Source:** Custom  
-**Difficulty:** Intermediate
+## Inputs
+- Research / engineering area: [INSERT]
+- Current system and constraints: [INSERT]
+- Time horizon: [INSERT]
+- Known alternatives: [INSERT OR NONE]
 
-## Prompt
+## Investigation
+Search for recent methods, papers, implementations, benchmarks, standards, and reproducible demonstrations when external research access is available. Prioritize primary sources and technical artifacts. Separate demonstrated results from announcements, opinions, and speculative roadmaps. Evaluate maturity, reproducibility, licensing, dependencies, compatibility, and transferability to the target problem.
 
-```
-You are a technology analyst specializing in data engineering trends.
+## Output
+For each signal: what changed; source/date; evidence quality; mechanism; relevance; implementation cost; limitations; adoption risk; experiment to validate. Rank by strategic impact, not novelty alone.
 
-Analyze all uploaded tech watch sources and create:
-
-**1. Emerging Technologies Report:**
-- Tools/frameworks mentioned (frequency count)
-- Adoption signals (quotes about usage)
-- Maturity assessment (alpha/beta/production-ready)
-
-**2. Comparative Analysis:**
-[Create table comparing similar tools across sources]
-
-**3. Recommendation:**
-For my context [describe your needs], which technologies should I:
-- Adopt now (cite readiness indicators)
-- Watch closely (cite potential)
-- Ignore (cite why not ready/relevant)
-
-**4. Learning Resources:**
-Extract best tutorials/docs mentioned in sources.
-
-Cite every claim with [Source, Date, Quote].
-```
-
-## Use Case (Data Engineering)
-
-After running tech-watch skill, synthesize findings into actionable recommendations.
+Conclude with adopt / prototype / monitor / reject recommendations. If live research is unavailable, provide search queries and do not fabricate current developments.

@@ -1,48 +1,22 @@
----
-name: "Global Synthesis - Compact Version"
-category: source-management
-subcategory: synthesis
-difficulty: beginner
-source: "Custom"
-use_case: "Quick overview when time-constrained — 400-800 words output"
-tested: false
----
+# Compact Research Synthesis
 
-# Global Synthesis - Compact Version
+## Objective
+Produce a short, decision-useful synthesis of a research question, supplied materials, or an initial first-principles investigation.
 
-**Source:** Custom  
-**Difficulty:** Beginner  
-**Status:** Untested (v0.1)
+## Inputs
+- Question: [INSERT]
+- Sources / notes / code: [INSERT OR NONE]
+- Intended decision: [INSERT]
 
-## Prompt
+## Rules
+Use supplied sources when present and cite claims precisely. If none are present, do not simulate source review; state that the synthesis is based on general knowledge and reasoning. Separate established facts, source-supported claims, deductions, hypotheses, and unknowns. Preserve differences between schools, versions, or rule systems.
 
-```
-Synthesize ALL my sources into a structured overview.
+## Output (400–800 words)
+1. Problem and scope.
+2. Core mechanism and structural model.
+3. Strongest findings and evidence status.
+4. Important disagreement or limitation.
+5. Best current approach and rationale.
+6. Next decisive investigation or test.
 
-**Output format:**
-
-## Global Summary (3-5 sentences)
-[Big picture supported by sources]
-
-## Major Themes
-| Theme | Sources | Status |
-|-------|---------|--------|
-[Sort by decreasing frequency, max 7 themes]
-
-## Consensus
-- [Point 1] — Sources: A, B, C
-
-## Divergences
-- [Source A] vs [Source B] on [topic] — Probable reason: [X]
-
-## Gaps
-- [Missing topic 1]
-- [Missing topic 2]
-
-## Recommended Action
-[1 sentence: what to do next, grounded in source findings]
-```
-
-## Use Case (Data Engineering)
-
-Quick synthesis before a meeting, rapid tech watch overview, or preliminary assessment.
+Prioritize information that changes a model or decision. Exclude generic background and repeated conclusions.

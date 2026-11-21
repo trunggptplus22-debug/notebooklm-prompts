@@ -1,29 +1,28 @@
----
-name: "Multi-Pass Structured Iteration"
-category: advanced-techniques
-difficulty: advanced
-source: "Matt Wolfe"
-use_case: "Complex architectural decisions requiring multi-source synthesis"
----
+# Multi-Pass Research and Model Refinement
 
-# Multi-Pass Structured Iteration
+## Objective
+Iteratively transform a problem statement into a tested, implementation-ready model without skipping uncertainty or verification.
 
-**Source:** Matt Wolfe  
-**Difficulty:** Advanced
+## Inputs
+- Problem: [INSERT]
+- Current model / solution: [INSERT OR NONE]
+- Data, sources, code: [INSERT OR NONE]
+- Constraints: [INSERT]
 
-## Prompt
+## Pass 1 — Formalize
+Lock the object, scope, terminology, assumptions, inputs, outputs, and success criteria. Separate facts, deductions, hypotheses, and unknowns.
 
-```
-Work through this in 4 passes:
+## Pass 2 — Decompose
+Identify entities, variables, states, relations, transformations, dependencies, invariants, constraints, and boundary conditions. Represent the structure in a table or graph where useful.
 
-Pass 1: Summarize main arguments from all sources
-Pass 2: Identify contradictions or disagreements
-Pass 3: Propose synthesis resolving contradictions
-Pass 4: Create actionable implementation plan
+## Pass 3 — Generate Alternatives
+Develop at least three materially different approaches when feasible: rule-based, mathematical/formal, and computational or hybrid. Explain the mechanism and trade-offs of each.
 
-Complete each pass before moving to next. Show work for each pass.
-```
+## Pass 4 — Attack
+Search for contradictions, counterexamples, edge cases, hidden assumptions, non-termination, data leakage, and unsupported parameters. Identify what would falsify each approach.
 
-## Use Case (Data Engineering)
+## Pass 5 — Select and Specify
+Choose the best-supported option under explicit criteria. Specify algorithm steps, data contracts, exceptions, tests, and observable acceptance criteria.
 
-Complex architectural decisions requiring multi-source synthesis.
+## Final Output
+Provide a concise decision record, unresolved risks, and the smallest decisive next experiment. Do not repeat unchanged findings between passes.
