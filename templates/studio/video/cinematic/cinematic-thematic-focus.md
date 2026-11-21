@@ -1,0 +1,3 @@
+# Thematic Focus for Technical Video
+
+Create a video focused on [INSERT CENTRAL MECHANISM / RESEARCH QUESTION]. Maintain one consistent conceptual thread from opening to conclusion. Every scene must advance the central question through definitions, mechanism, evidence, example, limitation, or implication. Remove tangential background. Do not force a theme or metaphor that distorts technical meaning. Keep terminology and source meaning stable. End by stating what the central mechanism explains, what remains unresolved, and what test would advance the investigation.
