@@ -1,36 +1,5 @@
----
-name: "Deep Dive - Technical Focus"
-category: studio
-subcategory: audio
-difficulty: intermediate
-format: "Deep Dive"
-length: "Longer"
-source: "greeden.me"
-use_case: "Deep dive technique sur un pattern architectural avec comparaison de sources"
----
+# Audio Deep Dive: Mechanism and Implementation
 
-# Deep Dive - Technical Focus
+Create an extended technical audio explanation of [INSERT TOPIC] for an advanced researcher or system designer.
 
-**Source:** greeden.me  
-**Format:** Deep Dive  
-**Length:** Longer
-
-## Prompt
-
-```
-Format: Deep Dive
-Length: Longer
-
-Focus instructions:
-- Prioritize [SPECIFIC TOPIC] from sources
-- Compare approaches between [SOURCE A] vs [SOURCE B]
-- Highlight contradictions and trade-offs
-- Address common objections to [APPROACH]
-- Skip [TOPICS TO EXCLUDE]
-
-Target expertise level: [intermediate data engineer]
-```
-
-## Use Case (Data Engineering)
-
-Deep dive technique sur un pattern architectural avec comparaison de sources.
+Move from formal definitions to structural relations, governing mechanisms, mathematical representation, algorithmic implications, implementation architecture, and validation. Include a worked example and at least one edge case. Distinguish doctrine from interpretation and symbolic meaning from deterministic calculation where relevant. Explain not only what a method does, but why each step is necessary and what breaks if it is omitted. Finish with unresolved questions, failure modes, and a prioritized research plan. Avoid introductory filler.
