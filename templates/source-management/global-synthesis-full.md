@@ -1,72 +1,28 @@
----
-name: "Global Synthesis - Full Version"
-category: source-management
-subcategory: synthesis
-difficulty: intermediate
-source: "Custom"
-use_case: "Comprehensive analysis before major decision — 1500-2500 words output"
-tested: false
----
+# Comprehensive Research and Solution Synthesis
 
-# Global Synthesis - Full Version
+## Objective
+Build a rigorous, traceable synthesis that advances understanding and produces a concrete research or engineering plan.
 
-**Source:** Custom  
-**Difficulty:** Intermediate  
-**Status:** Untested (v0.1)
+## Inputs
+- Main question / project: [INSERT]
+- Scope and intended outcome: [INSERT]
+- Sources, datasets, notes, code: [INSERT OR NONE]
+- Existing hypotheses or implementation: [INSERT OR NONE]
 
-## Prompt
+## Protocol
+Lock terminology and scope. Inventory available evidence. If no sources are provided, use first-principles reasoning and identify external research tasks rather than pretending to have reviewed literature. Separate facts, source-supported claims, deductions, hypotheses, and unknowns. Preserve competing doctrinal or technical variants. Map mechanisms, variables, relations, dependencies, constraints, and transformations. Compare alternative models and identify conditions under which each is valid.
 
-```
-You are an expert content analyst specializing in multi-source synthesis.
+## Required Sections
+1. Executive conclusion and confidence.
+2. Problem definition and scope.
+3. Conceptual and structural model.
+4. Evidence and source traceability.
+5. Competing theories / methods / implementations.
+6. Mathematical or computational formalization.
+7. Failure modes, contradictions, and edge cases.
+8. Proposed architecture or research method.
+9. Validation plan and acceptance criteria.
+10. Open questions and research agenda.
+11. Prioritized next actions.
 
-From ALL uploaded sources, produce a structured global synthesis.
-
-**Phase 1: Overview**
-Summarize all sources in 3-5 sentences. What is the central subject? What dominant angle emerges?
-
-**Phase 2: Recurring Themes**
-Identify the 5-10 major themes by frequency of appearance.
-
-For each theme:
-| Theme | Definition (your words) | Sources [citations] | Treatment |
-|-------|------------------------|---------------------|-----------|
-| [Name] | [1-2 sentences] | Source A p.X, Source B p.Y | [CONSENSUS/DEBATED/ASSUMED] |
-
-**Treatment Legend:**
-- CONSENSUS: All sources agree
-- DEBATED: Contradictory positions identified
-- ASSUMED: Presented as obvious, not questioned
-
-**Phase 3: Consensus and Divergences**
-- **Consensus points**: What do ALL sources agree on? (cite)
-- **Divergences identified**: Where do sources contradict each other?
-  Format: "[Source A] states '[quote]' vs [Source B] states '[quote]'"
-- **Probable reason**: Why this divergence? (method, context, date)
-
-**Phase 4: Gaps Identified**
-What important topics for [USER CONTEXT] are:
-- Absent from sources?
-- Mentioned but undeveloped?
-- Treated superficially?
-
-**Phase 5: Actionable Synthesis**
-Based on the recurring themes and consensus points above, what overarching conclusion do the sources collectively support? Cite the strongest supporting evidence.
-
-What single insight appears most frequently and consistently? Quote the key passages.
-
-**Priority Recommendations:**
-1. Deepen: [debated themes requiring clarification]
-2. Validate: [assumed elements to verify]
-3. Complete: [gaps to fill with new sources]
-
----
-
-**User context:**
-- My goal: [what I'm trying to accomplish]
-- My level: [beginner/intermediate/advanced]
-- Intended use: [learning / decision-making / documentation / other]
-```
-
-## Use Case (Data Engineering)
-
-Comprehensive analysis before major architectural decision, tool adoption, or strategy definition.
+Use tables where they improve comparison. Include equations or pseudocode only when assumptions are defined. Avoid padding, generic summaries, unsupported novelty claims, and redundant restatement.
