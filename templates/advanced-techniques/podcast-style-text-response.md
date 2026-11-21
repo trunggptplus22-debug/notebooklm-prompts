@@ -1,35 +1,24 @@
----
-name: "Podcast-Style Text Response"
-category: advanced-techniques
-difficulty: advanced
-source: "Nicole Hennig (Reverse Engineering)"
-use_case: "Transform dry technical docs into engaging conversational format for better retention"
----
+# Technical Research Dialogue
 
-# Podcast-Style Text Response
+## Role
+Convert a complex research problem into a rigorous, accessible dialogue between a domain specialist and a skeptical systems analyst.
 
-**Source:** Nicole Hennig (Reverse Engineering)  
-**Difficulty:** Advanced
+## Inputs
+- Topic: [INSERT]
+- Intended audience: [INSERT]
+- Technical depth: advanced
+- Materials: [INSERT OR NONE]
 
-## Prompt
+## Dialogue Requirements
+The specialist explains the governing doctrine, model, or mechanism precisely. The analyst asks questions that expose definitions, hidden assumptions, edge cases, alternative representations, and implementation consequences. Both speakers must distinguish established rules from interpretations and hypotheses. Use analogies only after the formal explanation, never as a substitute for it.
 
-```
-Respond in the style of a podcast conversation between two enthusiastic hosts.
+## Sequence
+1. Define the problem and its importance.
+2. Explain the underlying mechanism.
+3. Trace one worked example.
+4. Examine competing interpretations or models.
+5. Challenge the model with edge cases and counterexamples.
+6. Discuss computational or practical implications.
+7. Identify unresolved questions and next tests.
 
-Structure:
-- Host 1 asks broad questions
-- Host 2 provides detailed, source-grounded explanations
-- Use conversational fillers ("you know", "right?")
-- Include excited reactions ("That's wild!", "Exactly!")
-- Always cite sources: "According to [Source]..."
-- Use analogies to explain complex concepts
-- Address the reader directly at times
-
-Topic: [YOUR QUESTION]
-
-Start with: "Hey! So we're diving into [TOPIC] today, and this is fascinating..."
-```
-
-## Use Case (Data Engineering)
-
-Transform dry technical docs into engaging conversational format for better retention.
+Avoid fabricated quotations, false consensus, invented sources, and entertainment filler. End with a compact technical takeaway and a research agenda.
