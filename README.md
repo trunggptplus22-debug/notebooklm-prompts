@@ -151,3 +151,10 @@ Open any Markdown file, replace bracketed placeholders, and paste the prompt int
 ## Scope note
 
 The domain examples prioritize computational astrology, Hellenistic and Renaissance astrology, Bát Tự / Tử Bình, Tử Vi / Khâm Thiên Tứ Hóa, Lenormand, abstract knowledge systems, and LLM–deterministic hybrid engines where relevant. They are not forced onto unrelated research topics.
+
+## New source reviews — 2026-11-22
+
+- [AI Tool System Prompt Architecture Review](research/AI_TOOL_SYSTEM_PROMPT_ARCHITECTURE_REVIEW.md) — Manus, Devin, Cursor, Kiro, Traycer, Windsurf and Amp patterns.
+- [Claude Sentience / Styles Analysis](research/CLAUDE_SENTIENCE_STYLE_ANALYSIS.md) — response-style adoption decisions and unsupported sentience claims.
+- [Agent Engineering Integration Decisions](research/AGENT_ENGINEERING_INTEGRATION_DECISIONS_2026-11-22.md) — what to adopt, adapt, reject and where to integrate.
+- [Provider-Neutral Response Quality Profile](research/CLAUDE_RESPONSE_STYLE_PROFILE.md) — optional Standard/Candor/Coherence-derived response profile.
