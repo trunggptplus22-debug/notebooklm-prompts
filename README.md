@@ -126,6 +126,13 @@ The current comparative review covers five selected artifacts from two repositor
 - [Technical RFC Deck](templates/studio/slide-deck/technical-rfc-deck.md)
 
 
+## External Prompt Engineering References
+
+- [System Prompt Generation Configurations — source index](external-libraries/system-prompt-generation-configurations/README.md) — index of 21 upstream meta-prompt configurations; upstream prompt text is not mirrored.
+- [Refiner / Enhancer Tool Landscape](external-libraries/system-prompt-generation-configurations/refiner-tool-landscape.md) — capability map of prompt editing, optimization, evaluation, and lifecycle tools.
+- [Tool Selection and Proposed Workflow](external-libraries/system-prompt-generation-configurations/TOOL-SELECTION.md) — conservative and deep-enhance workflow design.
+- [Source and Usage Notes](external-libraries/system-prompt-generation-configurations/SOURCE.md) — upstream paths, attribution, and license-status note.
+
 ## Agent Skills
 
 - [Response Intelligence](skills/response-intelligence/SKILL.md) — epistemic controls, anti-sycophancy, coherence auditing, diagnostic inquiry, research-query refinement, and response-quality evaluation.
