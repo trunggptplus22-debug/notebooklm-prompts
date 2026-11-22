@@ -128,6 +128,10 @@ The current comparative review covers five selected artifacts from two repositor
 
 ## Agent Skills
 
+- [Response Intelligence](skills/response-intelligence/SKILL.md) — epistemic controls, anti-sycophancy, coherence auditing, diagnostic inquiry, research-query refinement, and response-quality evaluation.
+  - [Machine-readable rules](skills/response-intelligence/rules.yaml)
+  - [Output schema](skills/response-intelligence/output_schema.json)
+  - [Behavioral test cases](skills/response-intelligence/tests/test-cases.json)
 - [System Prompt Refiner](skills/system-prompt-refiner/SKILL.md) — diagnose, refine, redesign, and verify system prompts using conservative and deep-enhance modes.
   - [Invariant policy](skills/system-prompt-refiner/INVARIANTS.md)
   - [Test matrix](skills/system-prompt-refiner/TEST-MATRIX.md)
