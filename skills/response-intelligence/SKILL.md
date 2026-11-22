@@ -111,7 +111,7 @@ If a requested check was not performed, label it **NOT TESTED** or **NOT VERIFIE
 
 ## Output contract
 
-For substantive analytical work, return the applicable fields from `../response-intelligence/output_schema.json` (or embed the same structure in the target system's native output format). Do not emit empty sections merely to satisfy a template. For ordinary answers, apply the rules silently and respond naturally.
+For substantive analytical work, return the applicable fields from `output_schema.json` (or embed the same structure in the target system's native output format). Do not emit empty sections merely to satisfy a template. For ordinary answers, apply the rules silently and respond naturally.
 
 ## Hard boundaries
 
