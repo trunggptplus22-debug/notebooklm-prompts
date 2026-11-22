@@ -2,14 +2,14 @@
 
 ## Practical recommendation
 
-For a user who wants to improve existing system prompts rather than operate an LLMOps platform, start with:
+For a workflow that improves existing system prompts rather than operates a full LLMOps platform, start with:
 
 1. **System Prompt Doctor** from the upstream Daniel Rosehill collection for diagnosis.
-2. **Prompt Engineering Expert** for specification and platform-aware restructuring.
-3. **Prompt Optimizer** for practical rewrite/variant testing.
+2. **Specification-first prompt-engineering review** to extract requirements, platform constraints, protected invariants, and acceptance criteria before editing.
+3. **Prompt Optimizer** for practical rewrite and variant testing.
 4. **Promptfoo** for repeatable regression and acceptance checks.
 
-Add GEPA only when there is a stable evaluator and a representative dataset. Add Phoenix or Langfuse when prompt versioning, traces, experiment records, or team workflows become necessary.
+The specification-first review is a workflow role, not a separate software product. Add GEPA only when there is a stable evaluator and a representative dataset. Add Phoenix or Langfuse when prompt versioning, traces, experiment records, or team workflows become necessary.
 
 ## Why not select one universal tool?
 
