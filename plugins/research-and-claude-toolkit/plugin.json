@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "research-and-claude-toolkit",
+  "version": "1.0.0",
+  "description": "A toolkit of deep research, evidence verification, research synthesis, Claude Code diagnostics, usage analysis, debugging, and permission-audit skills.",
+  "author": {
+    "name": "trunggptplus22-debug"
+  },
+  "repository": "https://github.com/trunggptplus22-debug/notebooklm-prompts"
+}
