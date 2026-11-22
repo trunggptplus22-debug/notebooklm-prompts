@@ -7,6 +7,8 @@ A Perplexity-compatible Agent Plugin bundle containing five task-focused skills.
 | Skill | Purpose | Runtime requirements |
 |---|---|---|
 | `deep-research` | Multi-angle web research, source extraction, adversarial verification, cited synthesis | Web search/fetch; parallel agents are optional |
+| `researcher` | Execute one bounded research subtask and return sourced notes | Web search/fetch |
+| `report-writer` | Synthesize research notes into a cited final report | Supplied research notes |
 | `fewer-permission-prompts` | Audit Claude Code transcripts and propose narrowly scoped read-only allowlist entries | User-provided transcripts; do not assume local Claude filesystem access |
 | `explain-usage` | Estimate where a Claude session's token usage was spent | Session transcript and usage metadata |
 | `claude-code-doctor` | Audit Claude Code installation/configuration and produce safe remediation proposals | User-provided diagnostics/config excerpts; local machine access is not assumed |
