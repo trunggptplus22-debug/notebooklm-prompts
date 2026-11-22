@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "system-prompt-refiner",
+  "version": "1.0.0",
+  "description": "Diagnose, refine, restructure, adapt, and verify system prompts while preserving declared requirements, domain rules, safety boundaries, and runtime assumptions.",
+  "author": {
+    "name": "trunggptplus22-debug"
+  },
+  "repository": "https://github.com/trunggptplus22-debug/notebooklm-prompts",
+  "keywords": [
+    "prompt-engineering",
+    "system-prompts",
+    "prompt-refinement",
+    "agent-skills",
+    "evaluation",
+    "testing",
+    "invariant-preservation"
+  ]
+}
