@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "response-intelligence",
+  "version": "1.0.0",
+  "description": "Provider-neutral epistemic controls, anti-sycophancy, coherence audits, diagnostic inquiry, research-question refinement, and response-quality checks for AI agents.",
+  "author": {
+    "name": "trunggptplus22-debug"
+  },
+  "repository": "https://github.com/trunggptplus22-debug/notebooklm-prompts",
+  "keywords": [
+    "agent-skills",
+    "epistemic-reliability",
+    "critical-thinking",
+    "diagnostics",
+    "research",
+    "response-quality",
+    "anti-sycophancy"
+  ]
+}
