@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/trunggptplus22-debug/notebooklm-prompts/blob/main/skills/response-intelligence/output_schema.json",
+  "title": "Response Intelligence Output",
+  "description": "Optional structured contract for substantive analytical responses. Fields may be omitted when not applicable.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "objective": { "type": "string" },
+        "scope": { "type": "string" },
+        "constraints": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "epistemic_status": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim", "classification"],
+        "properties": {
+          "claim": { "type": "string" },
+          "classification": {
+            "enum": ["source_fact", "observed_result", "calculation", "inference", "hypothesis", "unknown"]
+          },
+          "basis": { "type": "string" },
+          "source_or_method": { "type": "string" },
+          "confidence": { "type": "string" },
+          "limitations": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "model": { "type": "string" },
+        "mechanisms": { "type": "array", "items": { "type": "string" } },
+        "alternatives": { "type": "array", "items": { "type": "string" } },
+        "counterexamples": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "diagnostic": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "observed_problem": { "type": "string" },
+        "candidate_hypotheses": { "type": "array", "items": { "type": "string" } },
+        "discriminating_tests": { "type": "array", "items": { "type": "string" } },
+        "observed_results": { "type": "array", "items": { "type": "string" } },
+        "recommended_action": { "type": "string" },
+        "verification_method": { "type": "string" }
+      }
+    },
+    "research_query": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "clarified_scope": { "type": "string" },
+        "final_query": { "type": "string" },
+        "exclusions": { "type": "array", "items": { "type": "string" } },
+        "evidence_preferences": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "conclusion": { "type": "string" },
+    "uncertainties": { "type": "array", "items": { "type": "string" } },
+    "verification_status": {
+      "enum": ["verified", "partially_verified", "not_verified", "not_tested", "not_applicable"]
+    }
+  }
+}
