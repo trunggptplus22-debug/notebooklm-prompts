@@ -5,7 +5,7 @@
 - Default branch inspected: main
 - Repository type: curated collection of meta-prompts for generating, editing, refining, adapting, and managing other system prompts.
 - Added to this library on: 2026-11-21
-- License note: repository README describes public use and requests attribution; inspect upstream LICENSE before copying or redistributing prompt text. This entry records the source and index, not a wholesale copy.
+- License status: the inspected upstream repository did not contain a LICENSE file. Its README describes public use and requests attribution, but that statement is not a formal open-source license grant. Do not copy or redistribute upstream prompt text without explicit permission or a subsequently published license. This entry records source metadata and an index only.
 
 ## Purpose
 
