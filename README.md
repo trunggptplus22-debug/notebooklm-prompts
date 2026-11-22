@@ -128,6 +128,10 @@ The current comparative review covers five selected artifacts from two repositor
 
 ## Agent Skills
 
+- [Response Intelligence](skills/response-intelligence/SKILL.md) — epistemic controls, anti-sycophancy, coherence auditing, diagnostic inquiry, research-query refinement, and response-quality evaluation.
+  - [Machine-readable rules](skills/response-intelligence/rules.yaml)
+  - [Output schema](skills/response-intelligence/output_schema.json)
+  - [Behavioral test cases](skills/response-intelligence/tests/test-cases.json)
 - [System Prompt Refiner](skills/system-prompt-refiner/SKILL.md) — diagnose, refine, redesign, and verify system prompts using conservative and deep-enhance modes.
   - [Invariant policy](skills/system-prompt-refiner/INVARIANTS.md)
   - [Test matrix](skills/system-prompt-refiner/TEST-MATRIX.md)
@@ -151,3 +155,10 @@ Open any Markdown file, replace bracketed placeholders, and paste the prompt int
 ## Scope note
 
 The domain examples prioritize computational astrology, Hellenistic and Renaissance astrology, Bát Tự / Tử Bình, Tử Vi / Khâm Thiên Tứ Hóa, Lenormand, abstract knowledge systems, and LLM–deterministic hybrid engines where relevant. They are not forced onto unrelated research topics.
+
+## New source reviews — 2026-11-22
+
+- [AI Tool System Prompt Architecture Review](research/AI_TOOL_SYSTEM_PROMPT_ARCHITECTURE_REVIEW.md) — Manus, Devin, Cursor, Kiro, Traycer, Windsurf and Amp patterns.
+- [Claude Sentience / Styles Analysis](research/CLAUDE_SENTIENCE_STYLE_ANALYSIS.md) — response-style adoption decisions and unsupported sentience claims.
+- [Agent Engineering Integration Decisions](research/AGENT_ENGINEERING_INTEGRATION_DECISIONS_2026-11-22.md) — what to adopt, adapt, reject and where to integrate.
+- [Provider-Neutral Response Quality Profile](research/CLAUDE_RESPONSE_STYLE_PROFILE.md) — optional Standard/Candor/Coherence-derived response profile.

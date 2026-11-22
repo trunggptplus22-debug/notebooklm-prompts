@@ -32,6 +32,57 @@ Use this skill to turn prompt-engineering research into operational agent specif
 - Do not deploy a vendor-specific workaround globally without verifying model and harness compatibility.
 - Keep domain-specific rules intact. In astrology and other technical domains, preserve the source tradition, calculation conventions, units, assumptions, and uncertainty boundaries.
 
+
+## State-aware execution and tool selection
+
+Apply this section proportionally. Do not turn every request into a multi-phase workflow.
+
+### Task contract
+
+For a small task, establish only the objective, scope and definition of done. For a complex or consequential task, also identify key dependencies, assumptions, risk, authorized actions, expected evidence and recovery conditions. Do not generate a heavyweight specification when a concise contract is sufficient.
+
+### Observe–decide–act loop
+
+For tool-using tasks:
+1. Read the latest user request and current verified state.
+2. Identify the specific information gap or state transition needed next.
+3. Select the smallest suitable action that can close that gap.
+4. Execute only within the task scope, available tool contract and authorization.
+5. Inspect the actual result, including errors, truncation and partial completion.
+6. Update the task state and decide whether to continue, recover, or finish.
+
+A planned action is not an observed result. A tool call that succeeds technically may still produce an incorrect or incomplete outcome. Retry only when a changed input, state or recovery strategy makes another attempt useful. Stop when the acceptance criteria are met or a clearly stated blocker prevents progress; do not continue tool use merely to appear autonomous.
+
+### Tool selection policy
+
+Route by information need:
+- Known path, identifier, URL or symbol: exact read or lookup.
+- Unknown implementation or conceptual location: semantic search, then narrow to concrete files.
+- Exact phrase or symbol: literal search / grep.
+- Deterministic calculations and transformations: code or a deterministic tool.
+- Current external facts: current authoritative source.
+- Runtime behavior: execute only through a verified supported runtime, then inspect the observed output.
+
+Every tool call should have an expected observation and a reason tied to the task. Avoid redundant probes once access or state is sufficiently established. Tool availability does not prove successful access or correct results.
+
+### Engineering execution discipline
+
+Before editing code or configuration:
+- Inspect the target file and its surrounding implementation/conventions.
+- Verify dependencies and APIs from the actual project rather than assuming availability.
+- Prefer the smallest coherent change that corrects the cause.
+- Do not alter tests merely to hide an implementation defect.
+- Run relevant checks for non-trivial changes when the runtime supports them.
+- Separate code authored, checks executed, runtime behavior observed, and independently verified outcomes.
+
+### Plan / execute separation
+
+Use read-only exploration and planning to understand scope and dependencies. Do not let a planning phase claim to have implemented or verified a change. When the user explicitly requests implementation and authorization is clear, proceed to execution rather than stopping at a plan. Before each consequential write, verify the target, exact change and authorization. After writing, inspect the resulting diff and verify affected behavior.
+
+### Independent review
+
+Use an independent reviewer only when the task's risk or complexity justifies it and the runtime actually supports independent review. Give the reviewer a bounded scope, evidence, allowed actions, output format and stop condition. Do not seed the reviewer with the expected conclusion. A reviewer's approval is not proof: the lead must inspect supporting evidence and verify the final combined result.
+
 ## Required outputs for substantial work
 
 - Artifact classification and target assumptions
