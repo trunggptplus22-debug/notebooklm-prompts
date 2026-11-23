@@ -41,6 +41,20 @@ This section treats public prompt-leak collections as secondary research corpora
 
 The current comparative review covers five selected artifacts from two repositories. The evaluation suite contains designed cases; it is not a claim that a target model has passed them.
 
+## Start here — use prompts without knowing their names
+
+You do not need to browse the catalogue or understand prompt terminology. Describe the problem in ordinary language and let the Prompt Router select the single best-fit prompt.
+
+- [Start Here — Choose a Prompt by Describing the Problem](use/START_HERE.md)
+- [Prompt Router — Select the Best Prompt for the Actual Task](use/PROMPT_ROUTER.md)
+
+## Prompt storage and maintenance
+
+The canonical archive remains in `templates/`. Each prompt is a standalone Markdown file. The user-facing launcher points to archive entries rather than duplicating their contents.
+
+- [Prompt Library — Storage and Maintenance](library/README.md)
+- [Shared Research and Verification Protocol](MASTER_RESEARCH_PROTOCOL.md)
+
 ## Prompt index
 
 ### Learning, research framing, and project design
@@ -67,7 +81,7 @@ The current comparative review covers five selected artifacts from two repositor
 - [Podcast-Style Text Response](templates/advanced-techniques/podcast-style-text-response.md)
 
 ### Computational engineering and architecture
-- [Architecture Decision Comparison](templates/data-engineering-specific/architecture-decision-comparison.md)
+- [Choose the Best System Architecture](templates/data-engineering-specific/architecture-decision-comparison.md)
 - [Code Review with Best Practices](templates/data-engineering-specific/code-review-with-best-practices.md)
 - [Learning Path Designer](templates/data-engineering-specific/learning-path-designer.md)
 - [Tech Watch Synthesis](templates/data-engineering-specific/tech-watch-synthesis.md)
